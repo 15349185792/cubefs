@@ -118,6 +118,7 @@ const (
 	enableQuota                = "enableQuota"
 	dpDiscardKey               = "dpDiscard"
 	ignoreDiscardKey           = "ignoreDiscard"
+	verSeqKey                  = "verSeq"
 )
 
 const (
@@ -254,6 +255,7 @@ const (
 	opSyncAllocQuotaID uint32 = 0x40
 	opSyncSetQuota     uint32 = 0x41
 	opSyncDeleteQuota  uint32 = 0x42
+	opSyncMulitVersion uint32 = 0x53
 )
 
 const (
